@@ -6646,8 +6646,7 @@ COPY order_items (id, order_id, melon_id, quantity, unit_price, total_price) FRO
 5459	1808	47	5	3.00	15.00
 5460	1809	15	9	3.00	27.00
 5461	1809	44	7	2.00	14.00
-5462	1809	41	3	2.50	7.50
-5463	1809	20	1	2.00	2.00
+;5463	1809	20	1	2.00	2.00
 5464	1809	27	10	2.00	20.00
 5465	1810	65	2	3.50	7.00
 5466	1811	51	2	2.25	4.50
@@ -31231,7 +31230,7 @@ COPY orders (id, customer_id, status, salesperson_id, shipto_state, subtotal, ta
 13	263	Delivered	177	SC	803.75	48.23	864.85
 14	934	Delivered	201	IA	258.50	15.51	292.28
 15	787	Delivered	245	CA	1274.50	76.47	1357.75
-16	241	Canceled	203	MS	75.75	4.55	84.71
+16	241	Canceled	203	MS	75.75	4.55SEL	84.71
 17	104	Out for Delivery	\N	WV	49.75	2.99	66.16
 18	498	Canceled	188	NV	218.50	13.11	235.38
 19	889	Processing	20	WI	115.00	6.90	125.73
